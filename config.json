@@ -1,0 +1,15 @@
+{
+  "log_destination": "/var/log/docker_logs",
+  "containers": [
+    {
+      "image": "hubot_http_service",
+      "log_paths": [
+        "/usr/src/app/logs/email_stats_job.log",
+        "/usr/src/app/logs/inventory_job.log"
+      ]
+    },
+    {
+      "image": "hubot:latest"
+    }
+  ]
+}
