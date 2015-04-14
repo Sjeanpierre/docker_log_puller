@@ -9,6 +9,8 @@ The [config.json](https://github.com/Sjeanpierre/docker_log_puller/blob/master/c
 
 Once the config.json is ready, simply place it in the same directory as the binary and run it.
 
+On my docker host machine, I have it set as a cron job to grab logs every 5 minutes.
+
 #### Disclaimer
 This method of getting log files from docker containers probably does not rank highly on anyones docker best practices list, but it scratched an itch for me and might help others.
 
