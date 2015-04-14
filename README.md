@@ -1,5 +1,5 @@
-# docker_log_puller
-Easily pull docker logs from specified directories 
+# docker log puller
+Easily pull docker logs from docker contianers 
 
 #### Purpose
 I wanted an easy way for host machines to pull logs from containers instead of having containers implement thier own log collection logic.
