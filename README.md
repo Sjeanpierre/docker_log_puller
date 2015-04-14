@@ -12,6 +12,6 @@ Once the config.json is ready, simply place it in the same directory as the bina
 On my docker host machine, I have it set as a cron job to grab logs every 5 minutes.
 
 #### Disclaimer
-This method of getting log files from docker containers probably does not rank highly on anyones docker best practices list, but it scratched an itch for me and might help others.
+This method of getting log files from docker containers probably does not rank highly on anyone's docker best practices list, but it scratched an itch for me and might help others.
 
 it might be worth it to consider mounting a shared between the host and the containers for storing logs.
